@@ -1,0 +1,80 @@
+html,body{
+    height:100%;
+    width:100%;
+    
+    
+}
+.content{
+    font-size:16px;
+    width:600px;
+    font-family: 'karla',sans-serif;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    color:white;
+    font-family: 'karla',sans-serif;
+    height:50px;
+    width:300px;
+    position:relative;
+    top: 25px;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color:black;
+    box-shadow: 5px 10px 20px;
+    
+}
+
+.ad{
+    background-color: white;
+    color: hsl(218, 22%, 67%);
+    padding:10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.sale{
+   color: hsl(71, 73%, 54%);
+}
+footer{
+    margin-top: 50%;
+}
+#money{
+    color:white;
+    font-size:50px;
+    font-weight: 700;
+}
+
+h1{
+    color:hsl(179, 62%, 43%) ;
+}
+
+.bottom{
+    display:flex;
+    color:hsl(204, 43%, 93%);
+}
+.price{
+    flex-grow:1;
+    padding:10px;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 5px;
+    
+    
+}
+.about{
+    flex-grow: 1;
+    padding: 10px;
+    background-color:hsl(179, 48%, 57%) ;
+    border-bottom-right-radius: 5px;
+
+    
+}
